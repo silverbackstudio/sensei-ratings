@@ -1,0 +1,28 @@
+{
+    "name": "silverbackstudio/sensei-ratings",
+    "description": "Allow users to rate Sensei lessons and courses",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Brando Meniconi",
+            "email": "b.meniconi@silverbackstudio.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "psr/log": "^1.0",        
+        "silverbackstudio/wp-themehelper": "^2.5.0",
+        "monolog/monolog": "^1.23" 
+    },
+    "require-dev": {
+        "wimg/php-compatibility": "^7.1",
+        "squizlabs/php_codesniffer": "^2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Svbk\\WP\\Plugins\\WooCommerce\\Sensei\\Ratings\\Course": "includes/class-sensei-ratings-course.php",
+            "Svbk\\WP\\Plugins\\WooCommerce\\Sensei\\Ratings\\Lesson": "includes/class-sensei-ratings-lesson.php"
+        }
+    } 
+}

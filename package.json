@@ -1,0 +1,27 @@
+{
+  "name": "sensei-ratings",
+  "version": "1.0.0",
+  "description": "Allow users to rate Sensei lessons and courses",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverbackstudio/sensei-ratings.git"
+  },
+  "author": "Brando Meniconi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silverbackstudio/sensei-ratings/issues"
+  },
+  "homepage": "https://github.com/silverbackstudio/sensei-ratings#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-object-fit-images": "^1.1.2"
+  }
+}
