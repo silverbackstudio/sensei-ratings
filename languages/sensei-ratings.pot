@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 17:30+0000\n"
+"POT-Creation-Date: 2018-02-23 10:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,12 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: includes/class-sensei-rating-lesson.php:32
+#: includes/class-lesson.php:46
 msgid "Rate this lesson"
 msgstr ""
 
-#: includes/class-sensei-rating-lesson.php:33
-msgid "Il tuo giudizio e' importante! Valuta i contenuti di questa lezione."
+#: includes/class-lesson.php:47
+msgid "Your feedback is important! Rate the contents of this lesson."
 msgstr ""
 
 #. Name of the plugin

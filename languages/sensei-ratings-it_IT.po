@@ -2,24 +2,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sensei - Lesson Ratings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 17:30+0000\n"
-"PO-Revision-Date: 2018-02-19 17:41+0000\n"
-"Last-Translator: SilverbackStudio <webmaster@silverbackstudio.it>\n"
+"POT-Creation-Date: 2018-02-23 10:38+0000\n"
+"PO-Revision-Date: 2018-02-23 10:39+0000\n"
+"Last-Translator: SilverbackStudio <test-email-vdt@silverbackstudio.it>\n"
 "Language-Team: Italian\n"
-"Language: it-IT\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco - https://localise.biz/"
+"X-Generator: Loco https://localise.biz/"
 
-#: includes/class-sensei-rating-lesson.php:32
+#: includes/class-lesson.php:46
 msgid "Rate this lesson"
 msgstr "Valuta la Lezione"
 
-#: includes/class-sensei-rating-lesson.php:33
-msgid "Il tuo giudizio e' importante! Valuta i contenuti di questa lezione."
-msgstr ""
+#: includes/class-lesson.php:47
+msgid "Your feedback is important! Rate the contents of this lesson."
+msgstr "Il tuo giudizio e' importante! Valuta i contenuti di questa lezione."
 
 #. Name of the plugin
 msgid "Sensei - Lesson Ratings"
@@ -27,7 +27,7 @@ msgstr "Sensei - Valutazioni Lezioni"
 
 #. Description of the plugin
 msgid "Allow users to rate Sensei lessons"
-msgstr "Consente "
+msgstr "Permette a gli utenti di valutare le lezioni da 1 a 5 stelle"
 
 #. Author of the plugin
 msgid "Silverback Studio"
