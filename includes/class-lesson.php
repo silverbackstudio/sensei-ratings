@@ -9,6 +9,7 @@
 namespace Svbk\WP\Plugins\Sensei\Ratings;
 
 use Svbk\WP\Helpers\Post\Rating;
+use Sensei_Utils;
 
 /**
  * Sensei Lesson Rating Main Class.
@@ -41,6 +42,10 @@ class Lesson extends Rating {
 	 * {@inheritdoc}
 	 */
 	public function render_form( $post_id ) {
+
+		if( ! Sensei_Utils::user_started_course( Sensei()->lesson->get_course_id( $post_id ) ) ) {
+			return;
+		}
 
 		echo '<section id="lesson-rating">';
 		echo '<h2>' . apply_filters( 'sensei_lesson_rating_title', __( 'Rate this lesson', 'sensei-ratings' ) ) . '</h2>';
