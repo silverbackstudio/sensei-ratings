@@ -43,7 +43,7 @@ class Lesson extends Rating {
 	 */
 	public function render_form( $post_id ) {
 
-		if( ! Sensei_Utils::user_started_course( Sensei()->lesson->get_course_id( $post_id ) ) ) {
+		if ( ! Sensei_Utils::user_started_course( Sensei()->lesson->get_course_id( $post_id ) ) ) {
 			return;
 		}
 
