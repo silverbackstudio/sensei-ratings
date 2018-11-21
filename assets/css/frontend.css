@@ -1,2 +1,40 @@
+#lesson-rating {
+  padding: 20px 0;
+  margin-bottom: 50px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0; }
+  #lesson-rating h2 {
+    margin-top: 0; }
+
+.rating .rate {
+  float: left;
+  cursor: pointer; }
+  .rating .rate:before {
+    content: '';
+    width: 25px;
+    height: 35px;
+    display: block;
+    background-image: url("../images/review-star.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .rating .rate span {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden; }
+  .rating .rate:hover ~ .rate:before {
+    background-image: url("../images/review-star-grey.png"); }
+
+.rating input {
+  display: none; }
+  .rating input:checked + label:before {
+    background-image: url("../images/review-star.png"); }
+  .rating input:checked + label ~ label:before {
+    background-image: url("../images/review-star-grey.png"); }
+
+.rating .button {
+  margin-left: 15px; }
 
 /*# sourceMappingURL=maps/frontend.css.map */
