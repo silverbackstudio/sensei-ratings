@@ -32,7 +32,7 @@ class Lesson extends Rating {
 
 		parent::init();
 
-		add_action( 'sensei_single_lesson_content_inside_after', array( $this, 'render_form' ), 9 );
+		add_action( 'sensei_single_lesson_content_inside_after', array( $this, 'render_form' ), 7 );
 		add_action( 'sensei_single_course_inside_before_lesson', array( $this, 'render' ) );
 		add_action( 'sensei_content_lesson_inside_before', array( $this, 'render' ), 21 );
 
