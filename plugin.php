@@ -10,7 +10,7 @@
 Plugin Name: Sensei - Lesson Ratings
 Description: Allow users to rate Sensei lessons
 Author: Silverback Studio
-Version: 1.0.0
+Version: 1.0.4
 Author URI: http://www.silverbackstudio.it/
 Text Domain: sensei-ratings
 */
